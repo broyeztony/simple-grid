@@ -11,5 +11,11 @@ Also, it was a good opportunity to start using SaSS and Gulp.
  - Easily editable 
  - ultra-light. A good starting point if you want to learn.
   
-#Requirements
-I used npm, gulp and sass
+#Getting started
+You will need npm, gulp and sass installed on your machine.
+ - Just clone the repository and browse the directories. It's only a couple of files :)
+        git clone https://github.com/broyeztony/simple-grid.git
+
+- If you want to work on it, first start the Gulp default task where i've set up a watcher so all your changes to the .scss files in the scss/ directory will be automagically compiled to .css files and moved to the css/ directory. In a Terminal, type:
+        gulp
+
