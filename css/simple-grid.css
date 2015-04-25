@@ -47,6 +47,48 @@
 .col-3-4 {
   width: 75%; }
 
+.col-2-5 {
+  width: 40%; }
+
+.col-3-5 {
+  width: 60%; }
+
+.col-4-5 {
+  width: 80%; }
+
+.col-2-6 {
+  width: 33.33333%; }
+
+.col-4-6 {
+  width: 66.66667%; }
+
+.col-5-6 {
+  width: 83.33333%; }
+
+.col-2-7 {
+  width: 28.57143%; }
+
+.col-3-7 {
+  width: 42.85714%; }
+
+.col-4-7 {
+  width: 57.14286%; }
+
+.col-5-7 {
+  width: 71.42857%; }
+
+.col-6-7 {
+  width: 85.71429%; }
+
+.col-3-8 {
+  width: 37.5%; }
+
+.col-5-8 {
+  width: 62.5%; }
+
+.col-7-8 {
+  width: 87.5%; }
+
 @media (max-width: 480px) {
-  .col-1-1, .col-1-2, .col-1-3, .col-1-4, .col-1-5, .col-1-6, .col-1-7, .col-1-8, .col-2-3, .col-3-4 {
+  .col-1-1, .col-1-2, .col-1-3, .col-1-4, .col-1-5, .col-1-6, .col-1-7, .col-1-8, .col-2-3, .col-3-4, .col-2-5, .col-3-5, .col-4-5, .col-2-6, .col-4-6, .col-5-6, .col-2-7, .col-3-7, .col-4-7, .col-5-7, .col-6-7, .col-3-8, .col-5-8, .col-7-8 {
     width: 100%; } }
