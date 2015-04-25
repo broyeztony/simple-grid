@@ -6,14 +6,12 @@
   @include box-sizing();
 }
 
-$pad: 20px;
+$gutter: 20px;
 
 .grid {
-  background: white;
-  margin: 0 0 $pad 0;
+  margin: 0 0 $gutter 0;
 
-  &:after {
-    /* Or @extend clearfix */
+  &:after { /* Or @extend clearfix */
     content: "";
     display: table;
     clear: both;
@@ -22,7 +20,7 @@ $pad: 20px;
 
 [class*='col-'] {
   float: left;
-  padding-right: $pad;
+  padding-right: $gutter;
   .grid &:last-of-type {
     padding-right: 0;
   }
@@ -39,17 +37,20 @@ $pad: 20px;
 .col-1-4 {
   width: 25%;
 }
+.col-1-5 {
+  width: 20%;
+}
 .col-1-8 {
   width: 12.5%;
 }
 
 .grid-with-padding {
-  padding: $pad 0 $pad $pad;
+  padding: $gutter 0 $gutter $gutter;
   [class*='col-']:last-of-type {
-    padding-right: $pad;
+    padding-right: $gutter;
   }
 }
 
 .outline, .outline * {
-  border: 1px solid grey;
+  border: 1px solid #b3b3b3;
 }
