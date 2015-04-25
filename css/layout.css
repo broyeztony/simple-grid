@@ -1,0 +1,4 @@
+[class*='col-'] {
+  border-right: 1px solid #b3b3b3; }
+  [class*='col-']:last-of-type {
+    border-right: none; }
