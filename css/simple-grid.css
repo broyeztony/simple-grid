@@ -1,19 +1,24 @@
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.grid {
-  margin: 0 0 20px 0; }
-  .grid:after {
-    /* Or @extend clearfix */
-    content: "";
-    display: table;
-    clear: both; }
+.grid-with-padding:after {
+  /* Or @extend clearfix */
+  content: "";
+  display: table;
+  clear: both; }
 
 [class*='col-'] {
   float: left;
+  padding: 20px; }
+
+[class*='col-']:last-of-type {
+  float: right;
   padding-right: 20px; }
-  .grid [class*='col-']:last-of-type {
-    padding-right: 0; }
+
+.col-1-1 {
+  width: 100%; }
 
 .col-2-3 {
   width: 66.66%; }
@@ -32,11 +37,6 @@
 
 .col-1-8 {
   width: 12.5%; }
-
-.grid-with-padding {
-  padding: 20px 0 20px 20px; }
-  .grid-with-padding [class*='col-']:last-of-type {
-    padding-right: 20px; }
 
 .outline, .outline * {
   border: 1px solid #b3b3b3; }
