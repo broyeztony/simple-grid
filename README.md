@@ -17,10 +17,16 @@ Just clone the repository and browse the directories. It's only a couple of file
     
         git clone https://github.com/broyeztony/simple-grid.git
 
-If you want to work on it, first start the Gulp default task where i've set up a watcher so all your changes to the .scss files in the scss/ directory will be automagically compiled to .css files and moved to the css/ directory.
+If you want to work on it, you will need to install the Gulp dependancies (gulp-sass...).
+There is a package.json file at the root of the project so you just need to
+
+        npm install
+        
+Then you can start the Gulp default task where i've set up a watcher so all your changes to the .scss files in the scss/ directory will be automagically compiled to .css files and moved to the css/ directory. Type
 
         gulp
         
+in your terminal.
         
 
 
