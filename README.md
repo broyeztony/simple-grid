@@ -4,12 +4,14 @@ A grid is a essential component of a CSS framework. Bootstrap, Foundation have a
 Also, it was a good opportunity to start using SaSS and Gulp.
 
 > This grid system is absolutely basic. You don't want to use it in a real product, at best you can use it for your personal website if you don't need to do more complicated things.
-> It's not responsive yet, but this will be implemented shortly
+> It's has (ultra) basic responsive features.
 
 #Features
  - 8-columns grid-system with padding.
  - Easily editable 
  - ultra-light. A good starting point if you want to learn.
+ - basic responsive features 
+   1.  handling screen size < 480px.
   
 #Getting started
 You will need npm, gulp and sass installed on your machine.
